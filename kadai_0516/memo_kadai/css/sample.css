@@ -61,9 +61,14 @@ li{
 }
 
 .result{
+    padding-top: 30px;
     display: flex;
     justify-content: center;
+    flex-flow: column;
     align-items: center;
+}
+.judgment{
+    padding-top: 30px;
 }
 
 .retry{
@@ -126,21 +131,21 @@ li{
 .list_container{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 #list{
     border-collapse:collapse ;
     width: 400px;
-    height: 40px;
+    height: 30px;
     padding: 0;
     display:table;
     table-layout: fixed;
 }
 th,td{
-    font-size: 20px;
+    font-size: 18px;
     border: solid 1px;
-    height: 40px;
+    height: 30px;
     display:table-cell;
 }
 th{
